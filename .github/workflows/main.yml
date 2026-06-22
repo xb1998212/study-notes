@@ -1,0 +1,11 @@
+name: CI
+on:
+  push:
+    branches: [ main ]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 输出问候
+        run: echo "Hello, GitHub Actions！我的第一个工作流。"

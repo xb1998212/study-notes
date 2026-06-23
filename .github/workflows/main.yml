@@ -8,4 +8,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: 输出问候
-        run: echo "Hello, GitHub Actions！我的第一个工作流。"
+        run: echo "第二次运行！GitHub Actions 响应很快！"

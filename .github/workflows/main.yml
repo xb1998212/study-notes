@@ -8,4 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: 输出问候
-        run: echo "第二次运行！GitHub Actions 响应很快！"
+        run: echo "你好，GitHub Actions！"
+      - name: 列出根目录文件
+        run: ls -la
+        
